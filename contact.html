@@ -12,10 +12,11 @@
   </header>
 
   <section>
-    <form id="contactForm">
+    <form id="contactForm" action="https://formspree.io/f/yourFormID" method="POST">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required></textarea>
+      <input type="hidden" name="_replyto" value="jainhardik037@gmail.com">
       <button type="submit">Send</button>
     </form>
     <a href="index.html" class="btn">Back to About Me</a>
